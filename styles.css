@@ -1,0 +1,143 @@
+/*---------------------INDEX-----------------*/
+#header{
+	background-color: #95FA9B;
+	color: #F1FAF2;
+	padding: 10px 20px;
+}
+#header h1 {
+	margin: 0px;
+}
+
+body{
+	
+	margin: 0px;
+	font-family: sans-serif;
+	padding: 10px;
+	background-color: #B3B3B3;
+}
+
+#header ul{
+
+	list-style: none;
+	padding: 0px;
+	overflow: hidden;
+
+}
+
+#header li {
+	float:left;
+	margin: 0px 15px 0px 0px;
+}
+
+#header ul a {
+
+	color:#EA0FD9;
+	text-decoration: none;
+
+}
+
+#header ul a:hover{
+
+	color: #F8F80B;
+}
+
+
+#content table tr{
+
+	background-color: #0BF8EA;
+
+	
+}
+
+#content table tr>*{
+
+	padding: 3px 10px;
+	border-bottom: 1px solid #666;
+
+
+}
+
+#content table tr:nth-child(even){ /*Para poner un color a las 
+filas pares*/
+
+	background-color: #EDF6EA;
+}
+#content table tr:nth-child(odd){
+	background-color:#F4F7B5;
+}
+
+
+
+/*---------------------INSTALACIONES-----------------*/
+
+h2 {
+
+	color: white;
+	text-shadow: 1px 2px 2px green, 0 0 25px blue, 0 0 5px red;
+}
+
+.galeria{
+	margin: 10px 20px;
+	box-shadow: 0px 4px 8px lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+	float:left;
+	width: 350px;
+	
+
+
+}
+.galeria img{
+	width: 100%;
+	height: auto;
+	border: 1px solid #484848;
+
+}
+.galeria:hover{
+	transform: rotate(-3deg);
+	border: 2px 2px solid #fff;
+}
+.pie{
+	text-align: center;
+	text-shadow: 2px 2px 5px purple;
+	padding: 10px;
+}
+.listado{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 4px 8px lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+	background-color: grey;
+	text-shadow: 2px 2px 5px purple;
+	width: 350px;
+	background: whitesmoke;
+
+
+}
+
+.galeria-1 {
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+
+/*---------------------PRECIOS-----------------*/
+
+.precio {
+
+	text-align: center;
+
+}
+/*---------------------CONTACTAME-----------------*/
+
+
+
+#content form [type=text],#content form [type=email] , #content form textarea{
+	display: block;
+	margin-bottom: 10px;
+	width: 50%;
+	padding: 10px;
+	border: 0px;
+	background-color:#efefef ;
+	color: #666666;
+}
