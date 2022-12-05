@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Inicio</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+	<body>
+		<div id="header">
+			<h1>Gimnasio Ferdinand Ayalus</h1>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="Instalaciones.html">Instalaciones</a></li>
+				<li><a href="Precios.html">Precios</a></li>
+				<li><a href="Contactame.html">Contáctame</a></li>		
+			</ul>
+		</div>
+		<div id="content">
+			<h2>Horarios de las clases</h2>
+
+			<table cellspacing="0">
+				<!--CELLSPACING Indica el número de píxels que separan una celda de otra. Aunque pueda parecerlo, no hace lo mismo que BORDER. Su valor por defecto es 2. CELLPADDING Indica los píxels de separación entre el borde de la celda y su contenido.
+				-->
+				<tr> <!-- (table row) <tr> define una fila de celdas en una tabla-->
+				<th></th>
+				<th>Lunes</th>
+				<th>Martes</th>
+				<th>Miercoles</th>
+				<th>Jueves</th>
+				<th>Viernes</th>
+				</tr>
+				<tr>
+					<th>9:00 a 10:00</th>
+					<td>Funcional</td>
+					<td>Spinnig</td>
+					<td>Danza</td>
+					<td>Aparatos</td>
+					<td>Yoga</td>
+				</tr>
+				<tr>
+					<th>10:00 a 11:00</th>
+					<td>Spining</td>
+					<td>Danza</td>
+					<td>Boxeo</td>
+					<td>Aparatos</td>
+					<td>Yoga</td>
+				</tr>
+				<tr>
+					<th>11:00 a 12:00</th>
+					<td>Yoga</td>
+					<td>Danza</td>
+					<td>Boxeo</td>
+					<td>Aparatos</td>
+					<td>Yoga</td>
+				</tr>
+				<tr>
+					<th>12:00 a 13:00</th>
+					<td>Yoga</td>
+					<td>Danza</td>
+					<td>Boxeo</td>
+					<td>Aparatos</td>
+					<td>Yoga</td>
+				</tr>
+					
+				<tr>
+					
+					<th>14:00 a 15:00</th>
+					<td>Spining</td>
+					<td>Danza</td>
+					<td>Boxeo</td>
+					<td>Aparatos</td>
+					<td>Yoga</td>				
+				</tr>
+
+			</table>
+
+			
+		</div>
+
+	</body>
+<html/>
